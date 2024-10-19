@@ -137,10 +137,18 @@ p {
 	h3 {
 		font-size: 28px;
 	}
-	.hlavni {
-		min-height: 400px;
-	}
+
 	.maly {
 		min-height: 200px;
-}
+	}
+	.kontejner {
+		display: flex;
+	}
+	.receptiky {
+		flex: 1 1 calc(100% - (100 / 3));
+	}
+	.hlavni {
+		min-height: 400px;
+		flex: 1 1 calc(100% / 3);
+	}
 }
